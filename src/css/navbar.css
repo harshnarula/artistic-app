@@ -1,0 +1,136 @@
+.navbar{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo-body{
+    top: 40px;
+    left: 200px;
+    width: 260px;
+    height: 80px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+}
+.logo{
+    display: flex;
+   
+    margin-left: 35px;
+    width: 89px;
+    height: 34px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 32px/44px Mongolian Baiti;
+    letter-spacing: 0px;
+    color: #101010;
+    opacity: 1;
+}
+
+.nav-btn{
+    /* Layout Properties */
+    top: 40px;
+    left: 1140px;
+    width: 260px;
+    height: 80px;
+    /* UI Properties */
+    background: var(--unnamed-color-88c2bb) 0% 0% no-repeat padding-box;
+    background: #88C2BB 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+.btn-text{
+    /* Layout Properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 66px;
+    width: 120px;
+    height: 19px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 600 16px/19px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.searchbar{
+    /* Layout Properties */
+    width: 620px;
+    height: 80px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-searchbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-filters{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+    /* UI Properties */
+    background: transparent url('E:\Relu Consultancy\myproject\public\images\icons\Component 32.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 6px;
+}
+
+.search-text{
+    width: 88px;
+    height: 14px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 12px/14px Gilroy;
+    letter-spacing: 0px;
+    color: #9A9A9E;
+    opacity: 1;
+    margin-top: 30px;
+}
+
+.filter-icon{
+    width: 26px;
+    height: 26px;
+    /* UI Properties */
+    background: transparent url('E:\Relu Consultancy\myproject\public\images\icons\Component 39 (2).svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.filter-text{
+    width: 37px;
+    height: 16px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 14px/16px Gilroy;
+    letter-spacing: 0px;
+    color: #303030;
+    opacity: 1;
+    margin-top: 31px;
+    margin-bottom: 33px;
+    margin-right: 30px;
+    margin-left: 8px;
+}
